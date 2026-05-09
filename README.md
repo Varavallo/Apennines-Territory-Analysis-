@@ -4,7 +4,8 @@
 [![Book](https://img.shields.io/badge/Book-Donzelli_Editore_2025-blue)](https://www.donzelli.it)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green?logo=python)](https://www.python.org/)
 [![QGIS](https://img.shields.io/badge/GIS-QGIS_3.x-brightgreen)](https://qgis.org/)
-
+[![GeoPandas](https://img.shields.io/badge/GeoPandas-0.14%2B-blue)](https://geopandas.org/)
+[![Folium](https://img.shields.io/badge/Folium-0.14%2B-green)](https://python-visualization.github.io/folium/)
 ---
 
 ## Overview
