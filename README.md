@@ -28,6 +28,22 @@ The Apennines are Italy's largest orographic chain — larger than Hungary, Port
 - **Economy & labour** — local economic units, employees by sector (ATECO), unemployment rates
 
 ---
+## Maps & Figures
+
+### Altimetric zones and Apennine municipalities
+
+![Municipalities by Altimetric Zone and Apennine Municipalities](apennine_municipalities_map.svg)
+
+*Left: Italian municipalities by altimetric zone. Right: Apennine municipalities identified for the analysis (992 comuni, 12.55% of all Italian municipalities). Source: ISTAT (2022) — elaboration by Barbera & Varavallo (2025).*
+
+Further visualisations will be added progressively and cover:
+
+- Forest cover distribution along the ridge
+- Demographic dynamics 2011–2021 (population change and foreign residents)
+- Economic activity distribution: services and industry by municipality
+- Employees by economic sector across Apennine provinces
+
+---
 
 ## Data Sources
 
@@ -76,22 +92,7 @@ The analysis combines:
 
 ---
 
-## Maps & Figures
 
-### Altimetric zones and Apennine municipalities
-
-![Municipalities by Altimetric Zone and Apennine Municipalities](apennine_municipalities_map.svg)
-
-*Left: Italian municipalities by altimetric zone. Right: Apennine municipalities identified for the analysis (992 comuni, 12.55% of all Italian municipalities). Source: ISTAT (2022) — elaboration by Barbera & Varavallo (2025).*
-
-Further visualisations will be added progressively and cover:
-
-- Forest cover distribution along the ridge
-- Demographic dynamics 2011–2021 (population change and foreign residents)
-- Economic activity distribution: services and industry by municipality
-- Employees by economic sector across Apennine provinces
-
----
 
 ## Citation
 
