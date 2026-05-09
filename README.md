@@ -6,6 +6,7 @@
 [![QGIS](https://img.shields.io/badge/GIS-QGIS_3.x-brightgreen)](https://qgis.org/)
 [![GeoPandas](https://img.shields.io/badge/GeoPandas-0.14%2B-blue)](https://geopandas.org/)
 [![Folium](https://img.shields.io/badge/Folium-0.14%2B-green)](https://python-visualization.github.io/folium/)
+
 ---
 
 ## Overview
@@ -55,8 +56,11 @@ The analysis combines:
 
 - **Python / Jupyter** — data cleaning, merging of ISTAT/Eurostat/SNAI datasets, statistical analysis and chart generation
 - **GeoPandas** — geospatial data manipulation, spatial joins between municipal boundaries and thematic datasets, and map-ready dataframe exports
+- **Folium** — interactive map rendering for exploratory spatial analysis
 - **QGIS** — cartographic processing of altimetric zones, forest cover shapefiles, and demographic variables; final map production and SVG/PNG export
 - **Conceptual framework** — the palimpsest metaphor (Corboz, 1998): each analytical layer is treated as a stratum of a living archive continuously rewritten by human and natural agency
+
+---
 
 ## Tech Stack
 
@@ -65,17 +69,23 @@ The analysis combines:
 | Python | 3.8+ | Data analysis and scripting |
 | Jupyter Notebook | — | Interactive analysis environment |
 | pandas | — | Tabular data processing |
-| GeoPandas | — | Geospatial data manipulation and spatial joins |
+| [GeoPandas](https://geopandas.org/) | 0.14+ | Geospatial data manipulation and spatial joins |
+| [Folium](https://python-visualization.github.io/folium/) | 0.14+ | Interactive map rendering |
 | matplotlib / seaborn | — | Statistical charts and figures |
-| QGIS | 3.x | Cartographic processing and map production |
+| [QGIS](https://qgis.org/) | 3.x | Cartographic processing and map production |
 
 ---
 
 ## Maps & Figures
 
-Geospatial visualisations will be added progressively. Maps cover:
+### Altimetric zones and Apennine municipalities
 
-- Altimetric distribution and Apennine municipalities in Italy
+![Municipalities by Altimetric Zone and Apennine Municipalities](apennine_municipalities_map.svg)
+
+*Left: Italian municipalities by altimetric zone. Right: Apennine municipalities identified for the analysis (992 comuni, 12.55% of all Italian municipalities). Source: ISTAT (2022) — elaboration by Barbera & Varavallo (2025).*
+
+Further visualisations will be added progressively and cover:
+
 - Forest cover distribution along the ridge
 - Demographic dynamics 2011–2021 (population change and foreign residents)
 - Economic activity distribution: services and industry by municipality
